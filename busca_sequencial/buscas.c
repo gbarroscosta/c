@@ -156,22 +156,3 @@ int busca_sequencial_desordenado(int vetor[TF], int num)
 
     return i;
 }
-
-
-/*void bubble_sort(int vetor[TF])
-{
-    int aux, i, j;
-
-    for(i = TF-1; i > 0; i--)
-    {
-        for(j = 0; j < i; j++)
-        {
-            if(vetor[j] > vetor[j+1])
-            {
-                aux = vetor[j];
-                vetor[j] = vetor[j+1];
-                vetor[j+1] = aux;
-            }
-        }
-    }
-}*/
